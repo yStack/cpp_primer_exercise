@@ -1,0 +1,33 @@
+## 2.5
+<a> 前缀 
+'a'  : 字符char，8位
+L'a' : 宽字符 16位
+"a"：字符串
+L"a" : 宽字符串
+
+<b> 后缀
+10 : int
+10u: unsigned int
+10L：long int
+10ul：unsigned long int
+012：8进制
+
+<c> 
+3.14 float/double
+3.14f float
+3.14L long double
+
+<d>
+10  可以用有符号表示，也可以用无符号表示
+10u 只能用无符号类型表示
+10. 浮点数（单/双）
+10e-2 浮点数的科学计数法，等价于10 * 10的-2次方
+
+## 2.6
+int month = 09，错误的8进制表示
+
+## 2.7
+<a> 字符串，含有转义字符
+<b> 3.14e1L, 3.14 * 10^1 long double
+<c> 1024f, float
+<d> 3.14L, long double
